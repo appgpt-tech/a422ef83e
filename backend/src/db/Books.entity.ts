@@ -15,5 +15,8 @@ author: string;
 @Column({nullable: true})
 authorGender: string;
 
+@Column({nullable: true})
+dateOfBirth: string;
+
 
 }
